@@ -12,8 +12,12 @@ html {
 }
 
 #header {
-height: 46px;
-background-color:black ;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 46px;
+    background-color:black ;
 }
 
 #nav {
@@ -96,7 +100,7 @@ background-color:black ;
  }
 
 #slider {
-    
+    margin-top: 46px;    
 }
 
 #content {
